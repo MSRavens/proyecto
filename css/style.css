@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    background-color: #795243;
+}
+
 .logo{
     width: 64px;
     height: 64px;
@@ -39,9 +43,10 @@ a{
 
 .oferta{
     border: 2px solid #795243;
-    width: 80vw
+    width: 95vw;
     text-align: center;
-    margin: 4px;
+    margin: auto;
+    margin-top: 5px;
 }
 
 .footer{
@@ -56,6 +61,10 @@ a{
     color: black;
     font-size: 10px;
     list-style-type: none;
+}
+
+.h{
+    text-align: center;
 }
 
 /* EXCLUSIVO INDEX/HOME */
@@ -91,6 +100,7 @@ a{
 .td{
     border: 2px solid #795243;
     text-align: center;
+    padding: 5px;
 }
 
 .tabla-talles-torso{
@@ -106,8 +116,8 @@ a{
 }
 
 .foto-talle-mujer{
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
     justify-content: center;
 }
 
@@ -118,8 +128,8 @@ a{
 }
 
 .foto-talle-hombre{
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
     justify-content: center;
 }
 
