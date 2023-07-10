@@ -158,3 +158,42 @@ a:hover{
     margin: 4px;
     /* COMO PUEDO HACER PARA QUE EL TEXTO PLACEHOLDER QUEDE ALINEADO AL INICIO Y NO CENTRADO? */
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 421px){
+    *{
+        font-size: xx -small;
+    }
+
+    .link-header{
+        font-size: 8px;
+    }
+
+    .header{
+        flex-direction: row-reverse;
+    }
+
+    .barra-navegacion-header{
+        flex-direction: column;
+    }
+
+    .link-header{
+        margin: 4px;
+    }
+
+    .logo {
+        margin: 4px;
+    }
+
+    .footer{
+        flex-wrap: nowrap;
+    }
+
+    .h{
+        font-size: 12px;}
+
+    .footer-list{
+        font-size: 4px;
+        }
+}
