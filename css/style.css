@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: gc-tipografia;
+}
+    
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    margin: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0ac7a;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.barra-navegacion-header{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.link-header{
+    color: black;
+    font-size: 16px;   
+    margin: 16px;
+}
+
+.oferta{
+    border: 2px solid #795243;
+    width: 80vw
+    text-align: center;
+    margin: 4px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d0ac7a;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+.link-footer{
+    color: black;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+/* EXCLUSIVO INDEX/HOME */
+
+.slogan-index{
+    margin: 16px;
+}
+
+.core-index{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 16px;
+    justify-content: space-evenly;
+    text-align: unset;
+}
+
+.texto-index{
+    font-family: intro-index;
+    font-size: 24px;
+    width: 360px;
+}
+
+.remeras-main{
+    height: 360px;
+    width: 360px;
+    justify-content: center;
+}
+
+/* EXCLUSIVO TALLES */
+
+
+.td{
+    border: 2px solid #795243;
+    text-align: center;
+}
+
+.tabla-talles-torso{
+    /* font-family: intro-index; (NO LO PUEDO CORREGIR/PISAR, AYUDA) */
+    border: 6px solid #795243;
+    padding: 2px;
+}
+
+.talles-mujeres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto-talle-mujer{
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+}
+
+.talles-hombres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foto-talle-hombre{
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+}
+
+.main-talles{
+    margin: 8px;
+}
+
+.h3-talles{
+    margin: 8px;
+}
+
+/* EXCLUSIVO CONTACTO */
+
+.formulario{
+    margin: 16px;
+}
+
+.casilla-formulario{
+    width: 360px;
+    margin: 4px;
+}
+
+.casilla-formulario-mensaje{
+    width: 360px;
+    height: 160px;
+    margin: 4px;
+    /* COMO PUEDO HACER PARA QUE EL TEXTO PLACEHOLDER QUEDE ALINEADO AL INICIO Y NO CENTRADO? */
+}
