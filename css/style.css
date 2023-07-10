@@ -193,7 +193,39 @@ a:hover{
     .h{
         font-size: 12px;}
 
-    .footer-list{
-        font-size: 4px;
-        }
+    .oferta{
+        font-size: 8px;
+    }
+
+    .h3-talles{
+        font-size: 18px;
+    }
+
+    .tabla-talles-torso{
+        font-size: 8px;
+    }
+    
+    .talles-mujeres{
+        align-items: center;
+    }
+    
+    .talles-hombres{
+        align-items: center;
+    }
+
+    .h1-formulario{
+        font-size: 18px;
+    }
+
+    .h5-formulario{
+        font-size: 12px;
+    }
+    
+    .casilla-formulario{
+        font-size: 12px;
+    }
+
+    .casilla-formulario-mensaje{
+        font-size: 12px;
+    }
 }
