@@ -144,17 +144,32 @@ a:hover{
 .nm__slogan{
     background-color: aqua;
     grid-area: slogan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .nm__img-logo{
     background-color: brown;
     grid-area: logo;
     max-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .nm__texto-marca{
     background-color: chartreuse;
     grid-area: texto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 
