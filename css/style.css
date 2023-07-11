@@ -123,6 +123,42 @@ a:hover{
     font-size: xx-large;
 }
 
+/* EXCLUSIVO NUESTRA MARCA */
+
+.nm__grilla{
+    max-width: 95vw;
+    margin: auto;
+    margin-top: 1vh;
+    display: grid;
+    max-height: 800px;
+    grid-template-areas: 
+    "slogan slogan logo"
+    "texto texto texto"
+    "texto texto texto"
+    "texto texto texto"
+    "texto texto texto";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nm__slogan{
+    background-color: aqua;
+    grid-area: slogan;
+}
+
+.nm__img-logo{
+    background-color: brown;
+    grid-area: logo;
+    max-height: 250px;
+}
+
+.nm__texto-marca{
+    background-color: chartreuse;
+    grid-area: texto;
+}
+
+
+
 /* EXCLUSIVO TALLES */
 
 
@@ -224,6 +260,10 @@ a:hover{
 
     .oferta{
         font-size: 8px;
+    }
+
+    .core-index{
+        flex-direction: column-reverse; 
     }
 
     .h3-talles{
